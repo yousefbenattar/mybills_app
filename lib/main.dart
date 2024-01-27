@@ -1,3 +1,4 @@
+// main.dart
 import 'package:flutter/material.dart';
 import 'pages/home.dart';
 
@@ -6,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home:const Home()
+      home: const Home(),
     );
   }
 }
