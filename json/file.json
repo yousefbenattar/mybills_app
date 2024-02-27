@@ -1,0 +1,28 @@
+[
+    {
+        "brand": "Ken Gen Power",
+        "date": "12-02-2024",
+        "status": false,
+        "due": "256.99",
+        "more": "Pay Before",
+        "img" : "images/brand1.png"
+    },
+    {
+        "brand": "Teck Power",
+        "date": "12-02-2024",
+        "status": false,
+        "due": "210.99",
+        "more": "Pay Today",
+        "img" : "images/brand2.png"
+
+    },
+    {
+        "brand": "Airtel",
+        "date": "12-02-2024",
+        "status": false,
+        "due": "559.59",
+        "more": "You must Pay in 3 days",
+        "img" : "images/brand3.png"
+
+    }
+]
